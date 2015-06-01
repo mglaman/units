@@ -12,3 +12,6 @@ install:
 
 script:
   - ./vendor/bin/phpunit -c ./phpunit.xml --coverage-text --strict
+
+after_script:
+  - php vendor/bin/coveralls -v
