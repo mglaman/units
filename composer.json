@@ -1,0 +1,25 @@
+{
+  "name": "mglaman/units",
+  "type": "library",
+  "description": "Measurement unit library.",
+  "keywords": ["measurement", "units"],
+  "license": "MIT",
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0",
+    "mikey179/vfsStream": "1.*"
+  },
+  "autoload": {
+    "psr-4": { "mglaman\\Units\\": "src" }
+  },
+  "autoload-dev": {
+    "psr-4": { "mglaman\\Units\\Tests\\": "tests" }
+  },
+  "authors": [
+    {
+      "name": "Matt Glaman"
+    }
+  ]
+}
